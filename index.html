@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="texts">
+        <h1 class="cjmmth" id="title"> CJ Mammoth Survey Form</h1>
+        <p class="cjmmth" id="description">This survey form ensures your slot to CJ Mammoth's Birthday Party where we
+            all
+            get to hang and get drunk or drink coffee or whatever... Anyway sign-up or else I will sacrifice you to the
+            Dark
+            Lord himself.
+        </p>
+    </div>
+    <form id="survey-form">
+        <div>
+            <label class="font-weight-style" id="name-label">Name:</label>
+            <input class="form-inputbox" id="name" placeholder="Type your name here" required></input>
+        </div>
+        <div>
+            <label class="font-weight-style" id="email-label">Email:</label>
+            <input class="form-inputbox" type="email" id="email" placeholder="Type your email here" required></input>
+        </div>
+        <div>
+            <label class="font-weight-style" id="number-label">Number of beer bottle you can drink:</label>
+            <div>
+                <input type="number" id="number" placeholder="999999" min="0000000000" max="9999999999"></input>
+            </div>
+        </div>
+        <div class="form-selection">
+            <p class="font-weight-style">Are you a homie or a girlie?</p>
+            <select id="dropdown">
+                <option value="Male">Homie</option>
+                <option value="Female">Girlie</option>
+            </select>
+            <div class="radio-button">
+                <p class="font-weight-style">San Miguel Pale Pilsen is the best tasting beer</p>
+                <input type="radio" value="agree" name="user-prefer">Agree</input>
+                <input type="radio" value="disagree" name="user-prefer">Disagree</input>
+            </div>
+            <div class="check-boxes">
+                <p class="font-weight-style">Music Genre you want</p>
+                <div class="check-boxes-alignment">
+                    <input type="checkbox" value="Metal">Metal</input>
+                    <input type="checkbox" value="Indie">Indie</input>
+                    <input type="checkbox" value="Pop">Pop</input>
+                    <input type="checkbox" value="Punk">Punk</input>
+                    <input type="checkbox" value="Jazz">Jazz</input>
+                    <input type="checkbox" value="Sadboi Songs">Sadboi Songs</input>
+                </div>
+            </div>
+            <textarea class="text-area" placeholder="Write your birthday greeting"></textarea>
+            <input type="submit" id="submit"></input>
+        </div>
+
+    </form>
+</body>
+
+</html>

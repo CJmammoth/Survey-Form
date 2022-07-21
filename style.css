@@ -1,0 +1,117 @@
+#title {
+    color: white;
+    font-size: 23;
+    text-align: center;
+    font-family: courier new;
+}
+
+#description {
+    font-family: monospace;
+    font-size: 35px;
+    text-align: center;
+}
+
+#survey-form {
+    text-align: center;
+}
+
+#name {
+   
+}
+#email {
+    
+    
+}
+#number {
+    width: 200px;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+#name-label {}
+
+#email-label {}
+
+#number-label {}
+
+#submit {}
+#dropdown {
+    width: 100px;
+    text-align: center;
+}
+
+.cjmmth {
+    background-color: rgb(167, 193, 235);
+    border-style: solid;
+    border-radius: 20px;
+    border-color: black;
+    max-width: 600px;
+    padding: 25px;
+}
+.form-inputbox {
+    margin: 20px 0;
+    height: 20px;
+    width: 300px;
+    text-align: center;
+}
+.form-selection {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.radio-button {
+    margin-bottom: 0px;
+}
+.check-boxes {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.text-area {
+    height: 100px;
+    width: 300px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.texts {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.check-boxes-alignment {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+
+}
+ .check-boxes-alignment>input[type=checkbox] {
+    display: inline-block;
+    margin: 0 10px;
+}
+.font-weight-style {
+    font-weight: 700;
+    font-size: 20px;
+}
+/* Set the background color of body to tan */
+body {
+    background-color: rgb(140, 133, 199);
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+    body {
+        background-color: rgb(140, 133, 199);
+    }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    body {
+        background-color: rgb(140, 133, 199);
+    }
+}
